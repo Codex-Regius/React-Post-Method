@@ -1,0 +1,41 @@
+.FavoriteMovie {
+  width: 800px;
+  height: 800px;
+  margin: 0 auto;
+  text-align: left;
+  margin-top: 100px;
+  color: white;
+}
+
+.FavoriteMovie h1 {
+  text-align: center;
+}
+
+.FavoriteMovie .form-data {
+  display: flex;
+  justify-content: center;
+  margin: 5px 0;
+  padding: 10px;
+}
+
+.FavoriteMovie .form-data label {
+  display: inline-block;
+  width: 75px;
+  margin-right: 10px;
+  text-align: right;
+}
+
+.FavoriteMovie .form-data input:not([type="submit"]) {
+  flex-grow: 1;
+}
+
+input{
+  padding : 10px;
+  width: 20%;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.comment{
+  height: 70px;
+}
